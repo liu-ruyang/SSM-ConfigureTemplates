@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <!---->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <typeAliases>
+        <package name="com.lry.pojo"/>
+    </typeAliases>
+
+    <!--在spring-mvc中使用了自动扫描Mapper接口后，该注册可以不写-->
+    <!--    <mappers>-->
+    <!--        <mapper resource="com/lry/dao/BookMapper.xml"></mapper>-->
+    <!--    </mappers>-->
+
+</configuration>
